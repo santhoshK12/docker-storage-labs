@@ -1,0 +1,1000 @@
+   56  ls -1
+   57  ./create-file.sh
+   58  ls
+   59  ls data
+   60  ls file1.txt file2.txt
+   61  cat data/file1.txt
+   62  cat data/file2.txt
+   63  ls
+   64  clear
+   65  mkdir lab2
+   66  cd lab2
+   67  pwd
+   68  touch setup.sh
+   69  vi setup.sh
+   70  chmod 777 setup.sh
+   71  ls -1
+   72  ./setup.sh
+   73  ls
+   74  ls logs
+   75  ls app.log
+   76  cat app.log
+   77  cat logs/app.log
+   78  cd ..
+   79  rm -r lab2
+   80  ls
+   81  pwd
+   82  rm -r myfirstproject
+   83  ls
+   84  pwd
+   85  history
+   86  cat setup.sh
+   87  hostname
+   88  cls
+   89  clear
+   90  mkdir myapp
+   91  cd myapp
+   92  pwd
+   93  ls
+   94  mkdir logs config
+   95  pwd
+   96  touch logs/app.log
+   97  ls
+   98  touch config/settings.conf
+   99  ls
+  100  echo "app started" >> logs/app.log
+  101  echo "user logged in" >> logs/app.log
+  102  cat logs/app.log
+  103  echo "port=8080" > config/settings.conf 
+  104  echo "ENV=production" >> config/settings.conf
+  105  cat config/settings.conf
+  106  chmod 600 logs/app.log
+  107  chmod 700 config/settings.conf
+  108  touch start.sh
+  109  vi start.sh
+  110  chmod +x start.sh
+  111  ./start.sh
+  112  cat logs/app.log
+  113  cd ..
+  114  history
+  115  ls
+  116  pwd
+  117  rm -r myapp
+  118  ls
+  119  pwd
+  120  clear
+  121  mkdir nodehealth
+  122  cd nodehealth
+  123  touch node.sh
+  124  vi node.sh
+  125  chmod +x node.sh
+  126  ./node.sh
+  127  vi node.sh
+  128  chmod +x node.sh
+  129  ./node.sh
+  130  vi node.sh
+  131  chmod +x node.sh
+  132  ./node.sh
+  133  cat node.sh
+  134  vi node.sh
+  135  chmod +x node.sh
+  136  ./node.sh
+  137  vi node.sh
+  138  chmod +x node.sh
+  139  ./node.sh
+  140  vi node.sh
+  141  cat node.sh
+  142  vi node.sh
+  143  chmod +x node.sh
+  144  ./node.sh
+  145  ls -1
+  146  rm -f sample.txt logs*.txt
+  147  pwd
+  148  ls
+  149  cat nodehealth
+  150  ls nodehealth
+  151  ls
+  152  ls node.sh
+  153  cat node.sh
+  154  ls -1 nodehealth
+  155  ls -a nodehealth
+  156  ls
+  157  cd node.sh
+  158  ls -1
+  159  ls -a
+  160  rm -r nodehealth
+  161  cd ..
+  162  ls
+  163  rm -r nodehealth
+  164  cd nodehealth
+  165  ls -1
+  166  cd node.sh
+  167  clear
+  168  dash
+  169  ls
+  170  pwd
+  171  mkdir crontab
+  172  ls
+  173  pwd
+  174  ls
+  175  cd ..
+  176  pwd
+  177  ls
+  178  mkdir myfirstcron
+  179  cd ubuntu
+  180  ls
+  181  cd crontab
+  182  touch cal.sh
+  183  vim cal.sh
+  184  chmod +x cal.sh
+  185  ./cal.sh
+  186  vim cal.sh
+  187  cd ..
+  188  pwd
+  189  sudo apt update
+  190  apt list --upgradable
+  191  aws
+  192  sudo apt install unzip -y
+  193  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  194  unzip awscliv2.zip
+  195  sudo ./aws/install
+  196  aws --version
+  197  history
+  198  cd crontab
+  199  vim cal.sh
+  200  chmod +x cal.sh
+  201  ./cal.sh
+  202  cd ..
+  203  ls
+  204  aws configure
+  205  ls
+  206  cd crontab
+  207  vim cal.sh
+  208  chmod +x cal.sh
+  209  ./cal.sh
+  210  vim crontab.sh
+  211  vim cal.sh
+  212  chmod +x cal.sh
+  213  ./cal.sh | more
+  214  vim cal.sh
+  215  chmod +x cal.sh
+  216  ./cal.sh | more
+  217  vim cal.sh
+  218  pwd
+  219  crontab -e
+  220  crontab -1
+  221  crontab -l
+  222  crontab -e
+  223  LS
+  224  ls
+  225  cat aws_report.log 
+  226  crontab -e
+  227  git status
+  228  cd ~/crontab
+  229  pwd
+  230  git init -b main
+  231  git remote add origin https://github.com/santhoshK12/linus-github
+  232  git status
+  233  git add cal.sh
+  234  git add aws_report.log
+  235  git add crontab.sh
+  236  git commit -m "Final AWS Resource Tracker with Cron"
+  237  git push -u origin main --force
+  238  clear
+  239  git
+  240  git status
+  241  git init
+  242  ls
+  243  ls -a
+  244  ls .git
+  245  mkdir myfirstgit
+  246  cd myfirstgit
+  247  touch calculator.sh
+  248  ls
+  249  vim calculator.sh
+  250  git status
+  251  git add calculator.sh
+  252  git status
+  253  git diff
+  254  git status
+  255  rm calculator.sh
+  256  rm -r myfirstgit
+  257  ls
+  258  cd ..
+  259  rm -r myfirstgit
+  260  clear
+  261  git init
+  262  mkdir myfirstgit
+  263  touch cal.sh
+  264  vim cal.sh
+  265  ls
+  266  rm -f myfirstgit
+  267  ls
+  268  m -r myfirstgit
+  269  rm -r myfirstgit
+  270  ls
+  271  rm cal.sh
+  272  ls
+  273  clear
+  274  mkdir myfirstgit
+  275  cd myfirstgit
+  276  touch cal.sh
+  277  vim cal.sh
+  278  clear
+  279  ls
+  280  init git
+  281  clear
+  282  ls -a
+  283  ls =la
+  284  ls -la
+  285  git
+  286  git init
+  287  clear
+  288  ls -la
+  289  ls .git
+  290  ls
+  291  git status
+  292  git add cal.sh
+  293  git status
+  294  ls
+  295  vim cal.sh
+  296  git status
+  297  git diff
+  298  ls
+  299  clear
+  300  ls
+  301  vim cal.sh
+  302  git status
+  303  git diff
+  304  ls
+  305  vim cal.sh
+  306  git status
+  307  git diff
+  308  vim cal.sh
+  309  git commit -m "this is my first git task"
+  310  git status
+  311  vim cal.sh
+  312  git status
+  313  git diff
+  314  git status 
+  315  git add cal.sh
+  316  git status
+  317  git commit -m "this is my git second task"
+  318  git diff
+  319  git status
+  320  git log
+  321  cat cal.sh
+  322  git lo
+  323  git log
+  324  git reset --hard [200~cbbac0a1b5383810ef75c7e8af56ab00a24b229a
+  325  git reset --hard cbbac0a1b5383810ef75c7e8af56ab00a24b229a
+  326  cat cal.sh
+  327  vim cal.sh
+  328  git status
+  329  git diff
+  330  vim cal.sh
+  331  cat cal.sh
+  332  git status
+  333  git commit -m "this is my third git task"
+  334  git diff
+  335  git status
+  336  git log
+  337  gid add cal.sh
+  338  git add cal.sh
+  339  git log
+  340  cat cal.sh
+  341  vim cal.sh
+  342  git status
+  343  git cal.sh
+  344  git add cal.sh
+  345  git commit -m "this is my fourth git task"
+  346  git diff
+  347  git log
+  348  git reset --hard  cbbac0a1b5383810ef75c7e8af56ab00a24b229a
+  349  ls
+  350  cat cal.sh
+  351  git status
+  352  git diff
+  353  vim cal.sh
+  354  git status
+  355  git add cal.sh
+  356  git commit -m "this is the last git task"
+  357  git diff
+  358  git log
+  359  git diff
+  360  git log
+  361  cat cal.sh
+  362  git reset --hard cbbac0a1b5383810ef75c7e8af56ab00a24b229a
+  363  cat cal.sh
+  364  clear
+  365  history
+  366  clear
+  367  git init -b main
+  368  git add cal.sh
+  369  git commit -m "adding to the github"
+  370  git remote add orgin https://github.com/santhoshK12/linus-github
+  371  git remote -v
+  372  git push -u orgin main
+  373  git push
+  374  git branch -M main
+  375  git remote rename orgin orgin
+  376  git push-u orgin main
+  377  git push -u orgin main
+  378  git push -u origin main
+  379  clear
+  380  ls
+  381  cd ..
+  382  ls
+  383  git branch -M main
+  384  git remote remove orgin
+  385  git remote remove origin
+  386  git remote add origin https://github.com/santhoshK12/linus-github
+  387  git push -u origin main
+  388  cd ~/myfirstgit
+  389  git remote remove origin 2>/dev/null
+  390  git remote add origin https://github.com/santhoshK12/linus-github
+  391  git push -u origin main
+  392  git status
+  393  clear
+  394  ls
+  395  cd ..
+  396  ls
+  397  cd ..
+  398  ls
+  399  cd myfirstgit
+  400  pwd
+  401  cd ubuntu
+  402  pwd
+  403  clear
+  404  aws
+  405  sudo apt  install awscli
+  406  aws
+  407  sudo snap install aws-cli  # version 1.44.20
+  408  aws
+  409  bash
+  410  clear
+  411  pwd
+  412  history
+  413  clear
+  414  ls
+  415  pwd
+  416  cal.sh
+  417  vim cal.sh
+  418  rm cal.sh
+  419  ls
+  420  clear
+  421  cd crontab
+  422  git checkout -b feature-cleanup
+  423  vim cal.sh
+  424  git add cal.sh
+  425  git commit -m "Added log cleanup feature"
+  426  git log
+  427  dit diff
+  428  git diff
+  429  git checkout main
+  430  git merge feature-cleanup
+  431  git log
+  432  git log feature-cleanup
+  433  git log --oneline --graph
+  434  git checkout -b rebase-practice
+  435  vim cal.sh
+  436  gid add cal.sh
+  437  git add cal.sh
+  438  git commit -m "added rebase comment on branch"
+  439  git checkout main
+  440  vim cal.sh
+  441  git add cal.sh
+  442  git commit -m "updated main branch was away"
+  443  git checkout rebase-pratice
+  444  git checkout rebase-practice
+  445  git rebase main
+  446  git log --oneline --graph
+  447  history
+  448  git log --oneline --graph
+  449  git checkout main
+  450  ls
+  451  pwd
+  452  git checkout main
+  453  vim cal.sh
+  454  git add cal.sh
+  455  git commit -m "main branch wants bash with debug mode"
+  456  git checkout -b conflict-test
+  457  vim cal.sh
+  458  git add cal.sh
+  459  git commit -m "branch wants to use sh instead of bash"
+  460  git checkout main
+  461  git merge conflict-test
+  462  git checkout main
+  463  vim cal.sh
+  464  git add cal.sh
+  465  git commit -m "main wants bash -x"
+  466  git status
+  467  git diff
+  468  git checkout -b real-conflict
+  469  vim cal.sh
+  470  git add cal.sh
+  471  git commit -m "Branch wants sh"
+  472  git checkout main
+  473  git merge real-conflict
+  474  git checkout main
+  475  vim cal.sh
+  476  git add cal.sh
+  477  git commit -m "Commit A: Updated main first"
+  478  git checkout -b final-conflict-check
+  479  vim cal.sh
+  480  git add cal.sh
+  481  git commit -m "commit B: updated branch"
+  482  git checkout main
+  483  vim cal.sh
+  484  git add cal.sh
+  485  git commit -m "commit c : main moved again"
+  486  git merge final-conflict-check
+  487  chmod +x cal.sh
+  488  ./cal.sh
+  489  vim cal.sh
+  490  chmod +x cal.sh
+  491  ./cal.sh
+  492  history
+  493  vim cal.sh
+  494  git add cal.sh
+  495  git commit -m "resolved merge conflict by keeping bash version"
+  496  git log --oneline --graph
+  497  vim cal.sh
+  498  chmod +x cal.sh
+  499  ./cal.sh
+  500  clear
+  501  ls
+  502  pwd
+  503  sudo apt update
+  504  sudo apt install software-properties-common -y
+  505  sudo add-apt-repository --yes --update ppa:ansible/ansible
+  506  sudo apt install ansible -y
+  507  ansible --version
+  508  clear
+  509  ssh-keygen
+  510  pwd
+  511  ls
+  512  ls /home/ubuntu/.ssh/id_ed25519
+  513  cat /home/ubuntu/.ssh/id_ed25519
+  514  ls
+  515  pwd
+  516  ls /home/ubuntu/.ssh/id_ed25519
+  517  cat /home/ubuntu/.ssh/id_ed25519
+  518  cat /home/ubuntu/.ssh/id_ed25519.pub
+  519  ssh -i ~/.ssh/id_ed25519 ubuntu@100.27.7.192
+  520  sudo nano /etc/ansible/hosts
+  521  ansible my_nodes -m ping
+  522  sudo nano /etc/ansible/ansible.cfg
+  523  ansible my_nodes -m ping
+  524  ansible my_nodes -a "free -m"
+  525  ansible my_nodes -a "uptime"
+  526  ansible my_nodes -a "uptie"
+  527  ansible my_nodes -a "uptime"
+  528  ansible my_nodes -m setup
+  529  ansible my_nodes -m apt -a "name=zip state=present" --become
+  530  nano setup_nginx.yml
+  531  ansible-playbook setup_nginx.yml
+  532  nano index.html
+  533  nano setup_nginx.yml
+  534  ansible-playbook setup_nginx.yml
+  535  nano setup_nginx.yml
+  536  ansible-playbook setup_nginx.yml
+  537  clear
+  538  pwd
+  539  ls
+  540  sudo apt update
+  541  sudo apt install -y gnupg software-properties-common curl
+  542  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+  543  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+  544  sudo apt update && sudo apt install terraform -y
+  545  terraform -version
+  546  mkdir tf1
+  547  cd tf1
+  548  nano main.tf
+  549  ls
+  550  terraform init
+  551  ls -a
+  552  terraform plan
+  553  ls
+  554  terraform apply
+  555  ls
+  556  cat terraform.tfstate
+  557  cat my-pet.txt
+  558  terraform destroy
+  559  ls
+  560  cat terraform.tfstate
+  561  cat terraform.tfstate.backup
+  562  clear
+  563  pwd
+  564  ls
+  565  sudo apt install awscli -y
+  566  aws configure
+  567  cd tf1
+  568  nano main.tf
+  569  terraform init
+  570  terraform plan
+  571  terraform apply
+  572  terraform destroy
+  573  nano main.tf
+  574  terraform init
+  575  nano main.tf
+  576  terraform init
+  577  terraform plan
+  578  terramform apply
+  579  terraform apply
+  580  clear
+  581  nano main.tf
+  582  terraform plan
+  583  nano main.tf
+  584  terraform plan
+  585  terraform apply
+  586  terraform destroy
+  587  nano main.tf
+  588  terraform plan
+  589  terraform apply
+  590  terraform destroy
+  591  nano main.tf
+  592  terraform plan
+  593  terraform apply
+  594  ls
+  595  cat terraform.tfstate
+  596  clear
+  597  nano main.tf
+  598  terraform init
+  599  clear
+  600  nano variables.tf
+  601  nano main.tf
+  602  terraform plan
+  603  nano main.tf
+  604  terraform plan
+  605  ls
+  606  sudo apt update && sudo apt install git -y
+  607  git init
+  608  git config --global user.email "kistipatisanthosh851@gmail.com"
+  609  git config --global user.name "santhoshK12"
+  610  nano .gitignore
+  611  git add .
+  612  git commit -m " professional Terraform project: AWS VPC with EC2"
+  613  git remote add origin https://github.com/santhoshK12/terraform-aws-3tier-network
+  614  git branch -M main
+  615  git push -u origin main
+  616  git pull origin main
+  617  ls
+  618  ls -la
+  619  git status
+  620  terraform destroy
+  621  clear
+  622  ls
+  623  mkdir -p modules/vpc modules/ec2
+  624  nano modules/vpc/main.tf
+  625  nano main.tf
+  626  terraform init
+  627  nano main.tf
+  628  nano modules/vpc/main.tf
+  629  nano variables.tf
+  630  terraform init
+  631  nano main.tf
+  632  nano modules/vpc/main.tf
+  633  rm -rf .terraform/
+  634  terraform init
+  635  terraform plan
+  636  terraform apply
+  637  git add .
+  638  git commit -m "Refactored to modular architecture: VPC and EC2 separated"
+  639  git push origin main
+  640  terraform destroy --auto-approve
+  641  clear
+  642  ls
+  643  sudo apt-get update
+  644  sudo apt-get install docker.io 
+  645  clear
+  646  ps -ef | grep dockerd
+  647  ls -1 /var/run/docker.sock
+  648  ls -l /var/run/docker.sock
+  649  docker ps
+  650  sudo usermod -aG docker ubuntu
+  651  ~s
+  652  ~$
+  653  clear
+  654  sudo : docker version
+  655  docker version
+  656  clear
+  657  docker version
+  658  mkdir myfristcon
+  659  cd myfirstcon
+  660  cd myfristcon
+  661  clear
+  662  nano Dockerfile
+  663  ls
+  664  pwd
+  665  ls -a
+  666  ls
+  667  clear
+  668  nano Dockerfile
+  669  docker build -t my-python-app .
+  670  docker images
+  671  docker run my-python-app
+  672  python3 --version
+  673  cat Dockerfile
+  674  docker run -it python:3.9-slim /bin/bash
+  675  docker run -it
+  676  docker run -it python:3.9-slim /bin/bash
+  677  docker ps -a
+  678  docker rm ef5
+  679  docker ps -a
+  680  docker rm 52c
+  681  docker rm 8c2
+  682  docker ps -a
+  683  cls
+  684  clear
+  685  ls
+  686  pws
+  687  pwd
+  688  cd myfirstcon
+  689  cd myfristcon
+  690  ls
+  691  pwd
+  692  cat Dockerfile
+  693  cd Dockerfile
+  694  ls
+  695  pwd
+  696  docker pa -a
+  697  docker run -d -p 8080:80 --name my-web-server nginx
+  698  docker ps
+  699  docker inspect my-web-server
+  700  clear
+  701  docker inspect my-web-server
+  702  clear
+  703  curl localhost:8080
+  704  clear
+  705  echo '<h1>Hello from the EC2 Host!</h1>' > index.html
+  706  docker stop my-web-server
+  707  docker rm my-web-server
+  708  docker run -d -p 8080:80 --name my-custom-web -v $(pwd)/index.html:/usr/share/nginx/html/index.html nginx
+  709  curl localhost:8080
+  710  nano index.html
+  711  curl localhost:8080
+  712  docker login
+  713  docker tag nginx santhoshK12345678/my-test-web:v1
+  714  docker push santhoshK12345678/my-test-web:v1
+  715  docker tag nginx docker.io/santhoshk12345678/my-test-web:v1
+  716  docker push docker.io/santhoshk12345678/my-test-web:v1
+  717  docker system df
+  718  docker system prune
+  719  docker system df
+  720  docker rmi -f $(docker images -q)
+  721  docker stop $(docker ps -q)
+  722  docker rm $(docker ps -aq)
+  723  docker rmi -f $(docker images -q)
+  724  docker system df
+  725  clear
+  726  ls
+  727  pwd
+  728  mkdir cam1
+  729  cd cam1
+  730  docker network create campany1
+  731  docker run -d --name the-notepad --network campany1
+  732  docker run -d --name the-notepad --network campany1 redis
+  733  nano app.py
+  734  nano Dockerfile
+  735  docker build -t company-waiter .
+  736  docker run -d -p 8080:5000 --name the-waiter --network campany1  company-waiter
+  737  curl localhost:8080
+  738  1
+  739  curl localhost:8080
+  740  docker rm -f the-waiter
+  741  curl localhost:8080
+  742  docker run -d -p 8080:5000 --name the-waiter --network campany1 company-waiter
+  743  curl localhost:8080
+  744  clear
+  745  git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero/tree/main
+  746  ls
+  747  pwd
+  748  git status
+  749  clear
+  750  rm -rf /home/ubuntu/.git
+  751  git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero.git
+  752  ls
+  753  cd Docker-Zero-to-Hero
+  754  git status
+  755  clear
+  756  ls
+  757  cd examples
+  758  ls
+  759  cd python-web-app
+  760  ls
+  761  docker build .
+  762  docker images
+  763  docker run -it 9f387953bfe4
+  764  docker run -p 8000:8000 -it 9f387953bfe4
+  765  clear
+  766  ls
+  767  pwd
+  768  history
+  769  cd Docker-Zero-to-Hero
+  770  cd examples
+  771  cd python-web-app
+  772  clear
+  773  ls
+  774  nano Dockerfile
+  775  docker build -t my-python-app .
+  776  docker run -d -p 8000:8000 --name running-app my-python-app
+  777  docker logs running-app
+  778  nano Dockerfile
+  779  docker run --rm my-python-app ls -R /app
+  780  clear
+  781  docker rm -f running-app
+  782  docker build -t my-python-app
+  783  docker run -d -p 8000:8000 --name running-app my-python-app
+  784  curl localhost:8000
+  785  docker rm -f running-app
+  786  docker build -t my-python-app
+  787  docker build -t my-python-app .
+  788  docker run -d -p 8000:8000 --name running-app my-python-app
+  789  clear
+  790  curl localhost:8000
+  791  docker ps
+  792  docker logs running-app
+  793  pws
+  794  pwd
+  795  cd ~/Docker-Zero-to-Hero/examples/python-web-app/devops
+  796  ls
+  797  cat devops
+  798  cat app.py
+  799  cd ..
+  800  ls
+  801  cs ..
+  802  cd ..
+  803  ls
+  804  cd examples
+  805  ls
+  806  nano first-docker-file
+  807  cd ~/Docker-Zero-to-Hero/examples/python-web-app
+  808  ls
+  809  nano Dockerfile
+  810  docker rm -f running-app
+  811  docker build -t my-python-app
+  812  docker run -d -p 8000:8000 --name running-app my-python-app
+  813  docker ps
+  814  nano ~/Docker-Zero-to-Hero/examples/python-web-app/Dockerfile
+  815  cd ~/Docker-Zero-to-Hero/examples/python-web-app
+  816  docker rm -f running-app
+  817  docker build -t my-python-app .
+  818  docker run -d -p 8000:8000 --name running-app my-python-app
+  819  docker ps
+  820  curl localhost:8000
+  821  clear
+  822  cd  ..
+  823  cd ..
+  824  rm -f $(docker ps -aq)
+  825  docker rmi -f $(docker images -q)
+  826  docker system prune -a --volumes
+  827  cd ..
+  828  ls
+  829  rm -f Docker-Zero-to-Hero 
+  830  rm -rf Docker-Zero-to-Hero 
+  831  ls
+  832  docker --version
+  833  sudo systemctl status docker
+  834  docker info
+  835  sudo docker run hello-world
+  836  # Carefully delete the extra practice folders and files
+  837  rm -rf aws cam1 crontab myfirstgit myfristcon setup_nginx.yml tf1 index.html awscliv2.zip
+  838  ls
+  839  pwd
+  840  # Remove the hello-world container and image
+  841  docker system prune -a
+  842  sudo usermod -aG docker $USER
+  843  clear
+  844  mkdir go-docker-project
+  845  cd go-docker-project
+  846  nano main.go
+  847  nano Dockerfile
+  848  nano Dockerfile.heavy
+  849  docker build -t calculator:heavy -f Dockerfile.heavy .
+  850  docker build -t calculator:slim -f Dockerfile .
+  851  docker images | grep calculator
+  852  nano README.md
+  853  clear
+  854  history
+  855  docker run -it calculator:slim
+  856  docker run -it calculator:heavy
+  857  docker images
+  858  git config --global user.email "kistipatisanthosh851@gmail.com"
+  859  git config --global user.name "santhoshK12"
+  860  git init
+  861  git add .
+  862  git commit -m "Go app using Multi-stage Docker builds"
+  863  git branch -M main
+  864  git remote add origin https://github.com/santhoshK12/go-multi-stage-optimization
+  865  git push -u origin main
+  866  history
+  867  clear
+  868  ls
+  869  pwd
+  870  cd go-docker-project
+  871  pwd
+  872  ls
+  873  cd ..
+  874  ls
+  875  pwd
+  876  clear
+  877  docker --version
+  878  docker run hello-world
+  879  mkdir bind-test
+  880  ls
+  881  docker run -it -v ~/bind-test:/data ubuntu bash
+  882  ls
+  883  cd bind-test
+  884  ls
+  885  cat file1.txt
+  886  clear
+  887  ls
+  888  docker ps
+  889  docker ps -a
+  890  docker rm 80053115b0de 
+  891  ls
+  892  cat file1.txt
+  893  ls
+  894  cd data
+  895  docker pa -a
+  896  docker ps -a
+  897  cd ..
+  898  docker run -it -v ~/bind-test:/data ubuntu bash
+  899  ~/bind-test:/data ubuntu bashrm -rf bind-test
+  900  rm -rf bind-test
+  901  docker run -it -v ~/bind-test:/data ubuntu bash
+  902  ls -la bind-test
+  903  ls
+  904  cd bind-test
+  905  ls
+  906  pwd
+  907  ls -la ~/bind-test
+  908  cd ..
+  909  docker volume create vol-test
+  910  docker volume ls
+  911  docker volume ls | grep vol-test
+  912  docker run -it -v vol-test/data ubuntu bash
+  913  docker ps -a | head -n 5
+  914  docker rm 4294f8d0dcb4
+  915  docker run -it -v vol-test:/data ubuntu bash
+  916  docker volume create vol-test
+  917  docker volume inspect vol-test
+  918  docker run -it -v vol-test:/data ubuntu bash
+  919  docker pa -a 
+  920  docker ps -a
+  921  docker rm e268dd34b10f 
+  922  docker run -it -v vol-test:/data ubuntu bash
+  923  ls
+  924  docker volume create log-vol
+  925  docker run -d --name log-writer --mount source=log-vol,target=/logs ubuntu bash -c 'while true; do date >> /logs/app.log; sleep 1; done'
+  926  docker ps
+  927  docker run -it --rm --name log-reader --mount source=log-vol,target=/logs ubuntu bash -c "tail -f /logs/app.log"
+  928  clear
+  929  docker ps
+  930  docker rm -f log-reader 2>/dev/null
+  931  docker rm -f log-writer 2>/dev/null
+  932  docker ps
+  933  history
+  934  clear
+  935  mkdir my-project
+  936  cd my-project
+  937  echo "for the use of bind mount" > index.html
+  938  docker run -d --name web-bind -p 8080:80 -v $(pwd):/usr/share/nginx/html nginx
+  939  docker volume create my-secure-data
+  940  docker run -d --name web-volume -p 8081:80 -v my-secure-data:/usr/share/nginx/html nginx
+  941  cd ..
+  942  docker rm -f $(docker ps -aq) 2>/dev/null
+  943  docker volume prune -f
+  944  rm -rf blind-lab
+  945  ls
+  946  rm -rf bind-text
+  947  rm -rf bind-test
+  948  ls
+  949  clear
+  950  mkdir bind-lab
+  951  cd bind-lab
+  952  ls
+  953  cd ..
+  954  docker run -it -v bind-lab:/data ubuntu bash
+  955  cd bind-lab
+  956  cat text.txt
+  957  ls
+  958  pwd
+  959  cd ..
+  960  ls
+  961  cat bind-lab/text.txt
+  962  cd text.txt
+  963  docker volume ls
+  964  docker run -it -v bind-lab:/data ubuntu bash
+  965  docker rm -f $(docker ps -aq) 2>/dev/null
+  966  docker volume prune -f
+  967  rm -rf ~/bind-lab
+  968  mkdir ~/bind-lab
+  969  ls ~
+  970  docker run -it -v ~/bind-lab:/data ubuntu bash
+  971  ls ~/bind-lab
+  972  cat ~/bind-lab/file.txt
+  973  rm -rf bind-lab
+  974  ls
+  975  docker run -it -v ~/bind-lab:/data ubuntu bash
+  976  ls bind-lab
+  977  ls
+  978  cd bind-lab
+  979  ls
+  980  cd ..
+  981  docker volume create vol-lab
+  982  docker volume ls
+  983  docker run -it -v vol-lab:/data ubuntu bash
+  984  docker ps -a | head -n 5
+  985  docker rm 108653095a82  
+  986  docker run -it -v vol-lab:/data ubuntu bash
+  987  mkdir docker-storage-labs
+  988  cd docker-storage-labs
+  989  git init
+  990  https://github.com/santhoshK12/docker-storage-labs.git
+  991  git remote add origin https://github.com/santhoshK12/docker-storage-labs
+  992  nano README.md
+  993  git add .
+  994  git commit -m "Initial docker storage labs commit"
+  995  git brach -M main
+  996  git branch -M main
+  997  git push -u orgin main
+  998  git push -u origin main
+  999  git pull origin main --allow-unrelated-histories
+ 1000  git push -u origin main
+ 1001  git config pull.rebase false
+ 1002  git pull origin main --allow-unrelated-histories
+ 1003  nano README.md
+ 1004  git add README.md
+ 1005  git commit -m "Resolve README merge conflict"
+ 1006  git push -u origin main
+ 1007  git status
+ 1008  history > commands-used.txt
+ 1009  ls
+ 1010  cat commands-used.txt
+ 1011  mv commands-used.txt docker-storage-labs/
+ 1012  cd docker-storage-labs
+ 1013  cd ..
+ 1014  mv commands-used.txt docker-storage-labs/
+ 1015  cd docker-storage-labs
+ 1016  git add .
+ 1017  git commit -m "Added command history proof"
+ 1018  git push
+ 1019  clear
+ 1020  cd ..
+ 1021  docker rm -f $(docker ps -aq) 2>/dev/null
+ 1022  docker network prune -f
+ 1023  docker network ls
+ 1024  docker run -d --name net1 ubuntu sleep 1d
+ 1025  docker run -d --name net2 ubuntu sleep 1d
+ 1026  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' net1
+ 1027  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' net2
+ 1028  docker exec -it net2 bash
+ 1029  docker network create secure-net
+ 1030  docker network ls | grep secure-net
+ 1031  docker run -d --name app1 --network secure-net ubuntu sleep 1d
+ 1032  docker run -d --name app2 --network secure-net ubuntu sleep 1d
+ 1033  docker exec -it app2 bash
+ 1034  ~$ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' app2
+ 1035  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' app1
+ 1036  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' app2
+ 1037  docker exec -it app2 bash
+ 1038  docker network create other-net
+ 1039  docker run -d --name isolated --network other-net ubuntu sleep 1d
+ 1040  docker exec -it app2 bash
+ 1041  docker run --rm --network host ubuntu bash -c "apt update >/dev/null && apt install -y curl >/dev/null && curl -I http://127.0.0.1:80 || true"
+ 1042  docker run -it --rm --network none ubuntu bash
+ 1043  docker exec -it app2 bash
+ 1044  ls
+ 1045  git config --global user.name "santhoshK12"
+ 1046  git config --global user.email "kistipatisanthosh851@gmail.com"
+ 1047  git config --global --list
+ 1048  git config --global credential.helper store
+ 1049  git add .
+ 1050  git commit -m "update networking lab"
+ 1051  git push
+ 1052  git add .
+ 1053  cd ~/docker-storage-labs
+ 1054  ls
+ 1055  history > networking-commands.txt
